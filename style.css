@@ -1,0 +1,61 @@
+/* Add some styling to the extension popup */
+body {
+    font-family: 'Rowdies', cursive;
+    background: rgb(242,195,101);
+background: radial-gradient(ellipse, rgba(242,195,101,0.9364788151588761) 14%, rgba(103,165,238,0.9364788151588761) 54%, rgba(148,233,163,1) 93%);
+    color: white;
+    border-radius: 2%;
+    text-transform: capitalize;
+}
+
+.weather-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.weather-card h1 {
+    font-size: 36px;
+    margin: 0;
+}
+.weather-card h2 {
+    font-size: 26px;
+    margin: 0;
+}
+
+.weather-card p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.weather-card img {
+    background-color: white;
+    height: 20vh;
+    width: 25vw;
+    margin-left: 20%;
+    border-radius: 50%;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Add some custom styles for different weather conditions */
+.weather-card.sunny h1 {
+    color: #ffd700;
+}
+
+.weather-card.cloudy h1 {
+    color: #87ceeb;
+}
+
+.weather-card.rainy h1 {
+    color: #00bfff;
+}
+
+.weather-card.snowy h1 {
+    color: #fffafa;
+}
+
+.weather-card.mist h1 {
+    color: #8b008b;
+}
